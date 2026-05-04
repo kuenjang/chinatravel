@@ -1,0 +1,64 @@
+.app {
+  width: 100%;
+}
+
+.destinations-section {
+  background-color: var(--secondary);
+}
+
+.destinations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 40px;
+  padding: 20px 0;
+}
+
+.footer {
+  background-color: var(--primary);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.footer-content h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.footer-content p {
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+  font-size: 0.9rem;
+}
+
+.footer-links span {
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.footer-links span:hover {
+  color: var(--accent);
+}
+
+.copyright {
+  font-size: 0.8rem;
+  opacity: 0.5;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 20px;
+  display: inline-block;
+  width: 100%;
+  max-width: 600px;
+}
+
+@media (max-width: 480px) {
+  .destinations-grid {
+    grid-template-columns: 1fr;
+  }
+}

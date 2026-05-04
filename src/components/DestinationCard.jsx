@@ -1,7 +1,7 @@
 import React from 'react';
 import './DestinationCard.css';
 
-const DestinationCard = ({ title, description, budget, image, tags }) => {
+const DestinationCard = ({ title, description, budget, image, tags, onExplore }) => {
   return (
     <div className="card glass fade-in">
       <div className="card-image-container">
@@ -16,7 +16,9 @@ const DestinationCard = ({ title, description, budget, image, tags }) => {
         </div>
         <h3 className="card-title">{title}</h3>
         <p className="card-description">{description}</p>
-        <button className="card-link">探索行程 →</button>
+        <button className="card-link" onClick={onExplore}>
+          {onExplore ? "探索行程 →" : "即將推出..."}
+        </button>
       </div>
     </div>
   );

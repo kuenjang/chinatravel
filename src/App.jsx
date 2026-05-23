@@ -82,7 +82,7 @@ function App() {
     overview: [
       { day: "Day 1", theme: "初識世遺古城", experience: "漫步西街、開元寺雙塔、天台日落", budget: "住宿: 200-300元<br>餐飲: 150-250元" },
       { day: "Day 2", theme: "多元宗教之旅", experience: "關岳廟求籤、清淨寺、府文廟、天后宮", budget: "門票: 3-10元<br>餐飲: 150-250元" },
-      { day: "Day 3", theme: "海絲記憶與非遺", experience: "海交館歷史、非遺館、欣賞南音或木偶戲", budget: "門票: 0元<br>餐飲: 150-250元" },
+      { day: "Day 3", theme: "海絲記憶與非遺", experience: "海交館歷史、非遺館、欣賞南音 or 木偶戲", budget: "門票: 0元<br>餐飲: 150-250元" },
       { day: "Day 4", theme: "海風與漁村文化", experience: "蟳埔村簪花圍體驗、崇武古城牆海景", budget: "交通: 100元<br>簪花: 40元" },
       { day: "Day 5", theme: "慢節奏的古城秘境", experience: "承天禪寺避世、市舶司遺址、中山路手信", budget: "門票: 0元<br>餐飲: 150-250元" },
       { day: "Day 6", theme: "古早味晨間探索", experience: "水門國仔面線糊、燒肉粽、返程", budget: "餐飲: 50-100元" }
@@ -120,13 +120,100 @@ function App() {
       { day: "Day 7", theme: "海風輕拂，伴手好禮", experience: "選購沙茶麵與餡餅等伴手禮、在咖啡館整理工作後愉快返程", budget: "伴手禮: 100-200元" }
     ],
     details: [
-      { title: "Day 1：抵達鷺島，漫步騎樓（中山路、唐沫茶兮）", content: "抵達後，入住交通極為便利的中山路步行街附近。這條百年老街全長1.2公里，是全廈門旅遊的樞紐與閩南騎樓建築精華。手裡拿一杯福建本土品牌「唐沫茶兮」特製的開心果系列茶飲（約RMB 13-19），買一份百年老字號「葉氏麻糍」，皮Q且不甜膩。看著華燈初上的騎樓夜景，正式融入鷺島的慢節奏生活。" },
-      { title: "Day 2：琴島鼓浪，萬國風華（鼓浪嶼、葉氏麻糍）", content: "清晨從郵輪中心搭渡輪前往知名海島景點「鼓浪嶼」（船票約RMB 35-60，需提前線上訂票）。島上無動力車輛，全憑步行，保留了難得的優雅與清幽。參觀萬國歷史建築群、登日光岩俯瞰全島、漫步菽莊花園與鋼琴博物館。別忘了拜訪島上的「葉氏麻糍」老店（RMB 18/一盒6個），看師傅現場現做裹滿香脆花生與芝麻的麻糍，感受跨越百年的古早手藝。" },
-      { title: "Day 3：南普陀尋幽，山海夕陽（南普陀寺、一樹一葉）", content: "早上前往唐末始建的千年古剎「南普陀寺」，環境清幽莊嚴，這裡與台灣傳統佛教同根同源，提供免費預約與贈香。參觀後，前往鄰近的中華城，點一杯福建在地品牌「一樹一葉」的奇蘭芒果烏龍手搖飲（約RMB 15-25），加入獨特阿達子（粉角），酸甜解膩。傍晚漫步「山海健康步道」，用最美視角俯瞰廈門的城市天際線與海平線日落。" },
-      { title: "Day 4：環島椰風，沙坡尾夕照（環島路、沙坡尾、百家春薑母鴨）", content: "上午租單車沿著環島路騎行，途經演武大橋與黃厝沙灘，感受椰林樹影與海風徐徐。傍晚前往廈門港發源地「沙坡尾」，這是一個由百年老漁港轉型而成的文創區，融合了潮流店鋪與藝術西區，傍晚可拍到浪漫的避風港落日與夜晚霓虹。晚餐在沙坡尾品嚐連年獲得米其林必比登推薦的「百家春薑母鴨」（兩人份含菜約RMB 142），看麻油與薑片煸到焦香的鴨肉，軟嫩入味，令人垂涎。" },
-      { title: "Day 5：八市煙火，閩南古早味（八市、鐘麗君滿煎糕、朱記手撕雞、芋包王）", content: "早起前往始建於1933年的「第八市場」（八市），這是廈門最古老、規模最大的傳統市場，感受最道地的生猛海鮮與市井煙火。在入口附近排隊買一份「鐘麗君滿煎糕」（約RMB 10-20），這款現點現做的閩南古早味甜點香Q軟彈。深入市場買份香氣十足的「朱記手撕雞」（約RMB 28）做為美味伴餐。中午到大元路街區拜訪傳承四代、曾獲米其林推薦的「芋包王閩南茶餐廳」（人均RMB 18-50），享用最正宗的芋包與芋泥香酥鴨。" },
-      { title: "Day 6：集美學村，長堤海上列車（集美學村、十里長堤）", content: "搭乘地鐵1號線，體驗如動畫《千與千尋》般跨越藍色海平面的「海上列車」路段。抵達後前往由陳嘉庚先生創辦的「集美學村」，這裡的學校建築融合中西特色，充滿嘉庚風情與人文氣息。傍晚前往拍攝日落的絕佳位置「十里長堤」，坐在海邊草地上聽著街頭駐唱的歌聲，逛逛熱鬧的文創市集，看著海上列車緩緩駛過，極具文青浪漫氛圍。" },
-      { title: "Day 7：海風輕拂，伴手好禮", content: "在海邊的精品咖啡館做最後的工作與行程整理。隨後前往八市或老字號購買餡餅、海鮮乾貨與手撕雞等廈門在地伴手禮，帶著海風的鹹甜回憶與滿滿的旅居靈感，輕鬆啟程返程。" }
+      {
+        title: "Day 1：抵達鷺島，漫步騎樓（中山路、唐沫茶兮）",
+        content: "抵達廈門後，先前往思明區中山路附近的設計民宿辦理入住，開始體驗這座海濱城市的魅力。<br><br>" +
+          "<div class='daily-time-block'><span class='time-tag'>14:00 - 15:30</span><span class='time-desc'>抵達廈門五通碼頭或高鐵站，搭乘地鐵/計程車前往思明區設計民宿辦理入住，稍作歇息。</span></div>" +
+          "<div class='daily-time-block'><span class='time-tag'>16:00 - 18:00</span><span class='time-desc'>開啟城市漫步（Citywalk），遊覽百年歷史的「中山路步行街」，欣賞保存完好的南洋風格閩南騎樓老街。</span></div>" +
+          "<div class='daily-time-block'><span class='time-tag'>18:00 - 19:30</span><span class='time-desc'>晚餐時間！品嚐福建新中式茶飲「唐沫茶兮」（推薦開心果系列，約RMB 13-19），搭配買上一盒百年老字號、皮Q不甜膩的「葉氏麻糍」（RMB 18）。</span></div>" +
+          "<div class='daily-time-block'><span class='time-tag'>20:00 - 21:30</span><span class='time-desc'>步行前往中華城商圈欣賞璀璨霓虹夜景，感受廈門都市生活與歷史的精妙交融，隨後散步返回民宿。</span></div>" +
+          "<div class='hotel-recommendation'>" +
+          "<strong>🏨 今日推薦飯店：那雅Naya野奢設計民宿 (中山路店)</strong><br>" +
+          "• <strong>特色：</strong>隱身於中山路鬧區旁的歷史小巷，由一座百年歷史的南洋風格閩南紅磚洋樓改建而成。設計融合了復古花磚與摩登野奢美學，離捷運站僅步行3分鐘，鬧中取靜，出行極其便利。<br>" +
+          "• <strong>價格：</strong>約 RMB 320 - 450 / 晚" +
+          "</div>"
+      },
+      {
+        title: "Day 2：琴島鼓浪，萬國風華（鼓浪嶼、葉氏麻糍）",
+        content: "清晨搭乘渡輪前往無車馬喧囂的鋼琴之島「鼓浪嶼」，在海浪聲與老鋼琴的旋律中，尋求心靈深處的創作靈感。<br><br>" +
+          "<div class='daily-time-block'><span class='time-tag'>08:00 - 09:00</span><span class='time-desc'>前往郵輪中心廈鼓碼頭搭乘渡輪登島（船票約RMB 35-60，務必提前3-5天在微信小程序線上購票）。</span></div>" +
+          "<div class='daily-time-block'><span class='time-tag'>09:30 - 12:00</span><span class='time-desc'>登上全島最高點「日光岩」俯瞰萬國建築與波光粼粼的蔚藍大海。在鋪滿三角梅的紅磚別墅小巷間漫步，尋找「葉氏麻糍」的特色流動攤位（現場現做，裹滿香脆芝麻與花生碎，RMB 18/盒）。</span></div>" +
+          "<div class='daily-time-block'><span class='time-tag'>12:00 - 13:30</span><span class='time-desc'>在島上的百年洋樓私房菜館，享用精緻且極具格調的閩南私房海鮮宴。</span></div>" +
+          "<div class='daily-time-block'><span class='time-tag'>13:30 - 16:00</span><span class='time-desc'>遊覽將江南園林與海景完美融合的「菽莊花園」，參觀館藏豐富、琴聲縈繞的「鋼琴博物館」。</span></div>" +
+          "<div class='daily-time-block'><span class='time-tag'>16:30 - 18:00</span><span class='time-desc'>在鼓浪嶼老別墅精品客棧辦理入住，並在被榕樹遮蔽的精緻花園裡享受英式下午茶，抱著筆電整理商務工作。</span></div>" +
+          "<div class='daily-time-block'><span class='time-tag'>19:00 - 21:00</span><span class='time-desc'>夜幕降臨後的鼓浪嶼避開了遊客喧囂，漫步於幽靜的別墅街道，伴著遠處海浪的拍擊聲，享受極致靜謐的琴島靈魂。</span></div>" +
+          "<div class='hotel-recommendation'>" +
+          "<strong>🏨 今日推薦飯店：鼓浪嶼李家莊別墅酒店</strong><br>" +
+          "• <strong>特色：</strong>座落於鼓浪嶼核心區，建於1920年的新古典主義英式紅磚洋房老別墅。前身為歐美洋行舊址，擁有開闊的復古英倫花園與露天星空酒吧。客房裝潢保留了花磚與古典傢俱細節，格調無與倫比。<br>" +
+          "• <strong>價格：</strong>約 RMB 650 - 850 / 晚" +
+          "</div>"
+      },
+      {
+        title: "Day 3：南普陀尋幽，山海夕陽（南普陀寺、一樹一葉）",
+        content: "回歸本島，漫遊唐末千年古剎，喝一杯在地人熱愛的奇特茶飲，在山海步道欣賞落日餘暉。<br><br>" +
+          "<div class='daily-time-block'><span class='time-tag'>09:00 - 11:30</span><span class='time-desc'>搭乘渡輪返回廈門本島，隨後前往千年古剎「南普陀寺」（免費預約並贈香，與台灣傳統佛教同根同源）。參觀清幽的大雄寶殿，並可沿石階攀登五老峰，俯瞰整座廈門大學校園與雙子塔海景。</span></div>" +
+          "<div class='daily-time-block'><span class='time-tag'>12:00 - 13:30</span><span class='time-desc'>前往鄰近的中華城商圈，品嚐在地人最愛的「一樹一葉」特色茶飲（RMB 15-25，推薦奇蘭芒果烏龍配阿達子粉角，極度酸甜解膩），搭配美味午餐。</span></div>" +
+          "<div class='daily-time-block'><span class='time-tag'>14:00 - 16:00</span><span class='time-desc'>在中華城周圍極具品味的獨立共享辦公空間或手沖咖啡館，高效專注地進行遠距工作。</span></div>" +
+          "<div class='daily-time-block'><span class='time-tag'>16:30 - 19:00</span><span class='time-desc'>登上「山海健康步道」林海線段，走在架設於半空中的全景步道上，以360度視角欣賞廈門的翠綠山巒、摩天大樓以及漸漸落入海平線的橙紅色落日。</span></div>" +
+          "<div class='hotel-recommendation'>" +
+          "<strong>🏨 今日推薦飯店：廈門馬哥孛羅東方大酒店</strong><br>" +
+          "• <strong>特色：</strong>緊鄰市中心風景如畫的筼筜湖，環境鬧中取靜、無比優雅。這家高品質酒店擁有絕美的湖景商務房，內置寬大舒適的辦公桌與高速Wi-Fi，非常適合需要隨時處理公務的數位游牧旅人。<br>" +
+          "• <strong>價格：</strong>約 RMB 550 - 750 / 晚" +
+          "</div>"
+      },
+      {
+        title: "Day 4：環島椰風，沙坡尾夕照（環島路、沙坡尾、百家春薑母鴨）",
+        content: "騎行最美海岸線，造訪百年老漁港轉型的藝術文創區，品嚐最道地的米其林必比登美食。<br><br>" +
+          "<div class='daily-time-block'><span class='time-tag'>09:00 - 12:00</span><span class='time-desc'>前往環島路最美海岸線，租一輛單車騎行漫遊，途經演武大橋與黃厝海灘，任憑海風拂面，踩踩細沙，擁抱椰林樹影。</span></div>" +
+          "<div class='daily-time-block'><span class='time-tag'>12:00 - 13:30</span><span class='time-desc'>在黃厝海灘旁的精品海景咖啡廳，伴著窗外的白沙灘與海浪拍擊聲享用簡餐並處理工作。</span></div>" +
+          "<div class='daily-time-block'><span class='time-tag'>14:00 - 17:30</span><span class='time-desc'>探訪廈門港發源地「沙坡尾」，漫步老避風港與藝術西區。這裡匯聚了大量潮流手作店、獨立買手店與先鋒藝術畫廊，舊漁港與現代文青藝術的碰撞極具張力。</span></div>" +
+          "<div class='daily-time-block'><span class='time-tag'>18:00 - 20:00</span><span class='time-desc'>晚餐品嚐沙坡尾必吃名店、連年獲得米其林必比登推薦的「百家春薑母鴨」（兩人份約RMB 142），熱氣騰騰的砂鍋裡香濃的麻油與老薑片被煸到焦脆，鴨肉香嫩多汁，極度美味！</span></div>" +
+          "<div class='daily-time-block'><span class='time-tag'>20:30</span><span class='time-desc'>辦理入住雙子塔超高層奢華海景房，欣賞鷺江夜景。</span></div>" +
+          "<div class='hotel-recommendation'>" +
+          "<strong>🏨 今日推薦飯店：廈門康萊德酒店 (世茂雙子塔)</strong><br>" +
+          "• <strong>特色：</strong>座落於思明區標誌性地標雙子塔（世茂雙塔）中，是全市最高的奢華海景酒店。所有客房均配有大片落地玻璃窗，可將日光岩、鼓浪嶼及無邊無際的湛藍海港夜景盡收眼底，視覺效果極其震撼。<br>" +
+          "• <strong>價格：</strong>約 RMB 950 - 1300 / 晚" +
+          "</div>"
+      },
+      {
+        title: "Day 5：八市煙火，閩南古早味（八市、鐘麗君滿煎糕、朱記手撕雞、芋包王）",
+        content: "深入近百年歷史的生猛海鮮傳統市場，尋訪閩南最道地、最溫暖人心的古早味小吃與米其林推薦餐廳。<br><br>" +
+          "<div class='daily-time-block'><span class='time-tag'>08:30 - 10:30</span><span class='time-desc'>深入始建於1933年的「第八市場」（八市），這是全廈門最具煙火氣的老街傳統市場。在入口附近排隊購買剛出爐、軟彈香甜的閩南古早味「鐘麗君滿煎糕」（約RMB 10-20），深入市場打包一份香氣四溢、醬汁鮮美的「朱記手撕雞」與無骨鳳爪（約RMB 28）。</span></div>" +
+          "<div class='daily-time-block'><span class='time-tag'>11:00 - 13:30</span><span class='time-desc'>步行前往鄰近的大元路，拜訪傳承四代、曾獲米其林推薦的「芋包王閩南茶餐廳」（人均RMB 18-50），享用最正宗的芋包（包裹筍丁、多汁鮮肉）與酥脆可口的芋泥香酥鴨。</span></div>" +
+          "<div class='daily-time-block'><span class='time-tag'>14:00 - 18:00</span><span class='time-desc'>前往官任路外籍別墅區周邊，找一家安靜精緻的法式咖啡館，在濃郁的咖啡香中享受無干擾的數位辦公時光。</span></div>" +
+          "<div class='daily-time-block'><span class='time-tag'>19:00 - 21:00</span><span class='time-desc'>晚餐探訪在地海鮮排檔，品嚐最正宗的「海鮮醬油水」熱炒，回歸思明區文藝別墅飯店休息。</span></div>" +
+          "<div class='hotel-recommendation'>" +
+          "<strong>🏨 今日推薦飯店：廈門中山路禧徠樂別墅飯店</strong><br>" +
+          "• <strong>特色：</strong>隱藏在思明區老別墅區中，室內設計巧妙地融合了閩南經典花磚與現代北歐清新簡約風。客房溫馨優雅，附設美麗的花園小院與寬敞的工作沙龍，對長期旅居的數位游牧者來說是極佳且極高性價比的選擇。<br>" +
+          "• <strong>價格：</strong>約 RMB 300 - 450 / 晚" +
+          "</div>"
+      },
+      {
+        title: "Day 6：集美學村，長堤海上列車（集美學村、十里長堤）",
+        content: "乘坐動漫同款的海上鐵軌列車跨海，造訪充滿文藝氣息的百年嘉庚學府，在長堤草地上聽歌看火紅日落。<br><br>" +
+          "<div class='daily-time-block'><span class='time-tag'>09:30 - 12:30</span><span class='time-desc'>早晨在思明區別墅花園中靜心工作，整理本次旅居的收穫。</span></div>" +
+          "<div class='daily-time-block'><span class='time-tag'>13:00 - 13:40</span><span class='time-desc'>搭乘地鐵1號線，當列車跨越廈門海堤時，透過車窗可體驗如《神隱少女》般在大海中央飛馳的「海上列車」絕美畫面。</span></div>" +
+          "<div class='daily-time-block'><span class='time-tag'>14:00 - 16:30</span><span class='time-desc'>抵達集美區，漫遊百年歷史的「集美學村」與龍舟池畔。這裡的學校建築融合了西洋別墅的骨架與閩南大屋頂的燕尾脊，被稱為獨樹一幟的「穿西裝戴斗笠」嘉庚建築風格。參觀陳嘉庚先生紀念館，感受濃厚的人文風骨。</span></div>" +
+          "<div class='daily-time-block'><span class='time-tag'>17:00 - 19:30</span><span class='time-desc'>前往網紅景點「十里長堤」，這裡是拍攝海上日落與列車的最佳機位。隨意坐在臨海的草地上，聽著街頭歌手的民謠吉他駐唱，逛逛文創市集，欣賞地鐵列車在火紅夕陽餘暉下駛過大堤的青春極致浪漫畫面。</span></div>" +
+          "<div class='daily-time-block'><span class='time-tag'>20:00</span><span class='time-desc'>辦理入住集美湖畔的高品質湖景酒店，享受遠離市區的極致靜謐湖景。</span></div>" +
+          "<div class='hotel-recommendation'>" +
+          "<strong>🏨 今日推薦飯店：廈門集美湖豪生大酒店</strong><br>" +
+          "• <strong>特色：</strong>坐落於集美新城核心區，緊鄰開闊美麗的集美湖，擁有極佳的湖光山色視野。酒店設計現代大氣，配有高品質大落地窗，遠離市區的喧鬧。性價比極高，非常適合旅居後期的安靜工作與身心調養。<br>" +
+          "• <strong>價格：</strong>約 RMB 400 - 550 / 晚" +
+          "</div>"
+      },
+      {
+        title: "Day 7：海風輕拂，伴手好禮（咖啡館辦公、採購伴手禮、返程）",
+        content: "在海邊咖啡館做最後的工作收尾，採購充滿海風鹹甜滋味的伴手禮，帶著滿滿的創意與靈感啟程返程。<br><br>" +
+          "<div class='daily-time-block'><span class='time-tag'>09:30 - 11:30</span><span class='time-desc'>在集美湖畔或思明區的精品獨立咖啡館進行本次廈門旅居行程的最後工作收尾、照片整理與文字產出。</span></div>" +
+          "<div class='daily-time-block'><span class='time-tag'>12:00 - 13:30</span><span class='time-desc'>前往八市周邊的信譽老字號，採購廈門經典餡餅、現炒特製肉鬆與精緻海產乾貨等在地特產伴手禮。</span></div>" +
+          "<div class='daily-time-block'><span class='time-tag'>13:30 - 14:00</span><span class='time-desc'>在街邊享用一碗熱騰騰、醬香醇厚的「烏糖沙茶麵」或「水門國仔面線糊」，為您的閩南海濱慢活之旅畫下最完美的句點。</span></div>" +
+          "<div class='daily-time-block'><span class='time-tag'>14:30 以後</span><span class='time-desc'>根據您的航班、高鐵火車或金廈小三通船班時間，帶著大海的溫馨回憶與滿載的旅居靈感，輕鬆返程！</span></div>" +
+          "<div class='hotel-recommendation'>" +
+          "<strong>🏨 今日返程：無住宿安排</strong><br>" +
+          "• <strong>貼心叮嚀：</strong>祝您旅途平安！希望廈門明媚的暖陽與溫柔的海風，為您的數位游牧與創作人生注入全新的生命力與豐沛靈感！<br>" +
+          "</div>"
+      }
     ],
     spending: [
       "住宿：思明區中山路/沙坡尾月租民居約 2000-2800 RMB，湖里或集美區約 1500-2000 RMB",
@@ -135,7 +222,7 @@ function App() {
       "省錢貼士：南普陀寺（免費預約）、集美學村、十里長堤與沙坡尾皆為免費參觀，性價比極高"
     ],
     prep: [
-      "預訂：鼓浪嶼船票非常搶手，務必提早3-5天在「廈門輪渡+」微信小程序或官網訂票",
+      "預訂：鼓浪嶼船票非常搶手，務by提早3-5天在「廈門輪渡+」微信小程序或官網訂票",
       "預約：南普陀寺需提早在官方小程序上進行免費預約登記並獲取免費贈香",
       "證件：小三通旅客請帶齊身分證、台胞證、護照等必要證件",
       "防曬：海濱城市紫外線極強，防曬乳、遮陽帽、墨鏡為每日必備"

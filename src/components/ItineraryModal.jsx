@@ -52,7 +52,7 @@ const ItineraryModal = ({ isOpen, onClose, data }) => {
               {data.details.map((day, i) => (
                 <div key={i} className="daily-item">
                   <h4>{day.title}</h4>
-                  <p>{day.content}</p>
+                  <p dangerouslySetInnerHTML={{ __html: day.content }}></p>
                 </div>
               ))}
             </div>
